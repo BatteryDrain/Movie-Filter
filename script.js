@@ -67,9 +67,25 @@ selratting.addEventListener("change", function(){
 
     console.log(RATTING);
 
+    if(RATTING == "pg"){
+        for(i = 0; 1 < 7; i++){
+            if(FIGURES[i].dataset.ratted == "pg-13"){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+    if(RATTING == "pg-13"){
+        for(i = 0; 1 < 7; i++){
+            if(FIGURES[i].dataset.ratted == "pg"){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
     if(RATTING == "all"){
-        for(i=0; 1 < 7; i++){
-
+        for(i = 0; 1 < 7; i++){
+            if(FIGURES[i].classList == "hide"){
+                FIGURES[i].classList.toggle("hide");
+            }
         }
     }
 });
