@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>enter_name_here</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+   <main>
+    <div id="fiterOptions">
+        <label for="selanimation">Filter for animation: </label>
+        <select id="selanimation">
+            <option> select one </option>
+            <option value="true">animated</option>
+            <option value="false">live action</option>
+            <option value="all">all</option>
+        </select>
+        <label for="selage">Filter for when released: </label>
+        <select id="selage">
+            <option> select one </option>
+            <option value="2000">after 1999</option>
+            <option value="1900">before 2000</option>
+            <option value="all">all</option>
+        </select>
+        <label for="selratting">Filter for when made: </label>
+        <select id="selratting">
+            <option> select one </option>
+            <option value="pg">pg</option>
+            <option value="pg-13">pg-13</option>
+            <option value="all">all</option>
+        </select>
+    </div>
+    <br>
+    <button id="submit">apply filters</button>
+    <div id="products">
+    <figure data-animstion="f" data-agemade="2024" data-ratted="pg">
+        <img src="" alt="">
+            <figcaption>Girl Haunts Boy</figcaption>
+            <p>this is jeulery</p>
+    </figure>
+    <figure data-animstion="f" data-agemade="2015" data-ratted="pg-13">
+        <img src="" alt="">
+            <figcaption>The Man From U.N.C.L.E.</figcaption>
+            <p>this is jeulery</p>
+    </figure>
+    <figure data-animstion="f" data-agemade="1984" data-ratted="pg-13">
+        <img src="" alt="">
+            <figcaption>Beverly Hills Cop</figcaption>
+            <p>this is jeulery</p>
+    </figure>
+    <figure data-animstion="t" data-agemade="1991" data-ratted="pg">
+        <img src="" alt="">
+            <figcaption>Beauty And The Beast</figcaption>
+            <p>this is jeulery</p>
+    </figure>
+    <figure data-animstion="t" data-agemade="2023" data-ratted="pg">
+        <img src="" alt="">
+            <figcaption>Elemental</figcaption>
+            <p>this is jeulery</p>
+    </figure>
+    <figure data-animstion="t" data-agemade="1997" data-ratted="pg">
+        <img src="" alt="">
+            <figcaption>Hercules</figcaption>
+            <p>this is jeulery</p>
+    </figure>
+</div>
+   </main>
+   <script src="script.js"></script>
+  </body>
