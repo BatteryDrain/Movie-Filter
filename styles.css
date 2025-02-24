@@ -1,11 +1,8 @@
 .hide{
     display:none;
-    /* opacity:0; hides things but retains it's space */
 }
-article{
-    border:2px solid red;
-    margin:1rem;
-    padding-left: 10px;
+body {
+    font-family: Rboto, Arial, sans-serif;
 }
 #products{
     display: grid;
