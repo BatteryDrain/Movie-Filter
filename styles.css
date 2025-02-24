@@ -23,6 +23,12 @@ figure{
     display: flex;
     flex-direction: column;
 }
-#fiterOptions select{
+header select{
     width: 150px;
+}
+figure{
+    border-radius: 25px;
+    background-color: grey;
+    color: white;
+    border: none;
 }

@@ -9,60 +9,52 @@
   </head>
   <body>
    <main>
-    <div id="fiterOptions">
-        <label for="selanimation">Filter for animation: </label>
-        <select id="selanimation">
+    <header>
+        <label for="filter_select">Filter movies by: </label>
+        <select id="filter_select">
             <option> select one </option>
-            <option value="true">animated</option>
-            <option value="false">live action</option>
-            <option value="all">all</option>
-        </select>
-        <label for="selage">Filter for when released: </label>
-        <select id="selage">
-            <option> select one </option>
-            <option value="2000">after 1999</option>
-            <option value="1900">before 2000</option>
-            <option value="all">all</option>
-        </select>
-        <label for="selratting">Filter for when made: </label>
-        <select id="selratting">
-            <option> select one </option>
+            <option value="animated">animated</option>
+            <option value="live_action">live action</option>
+            <option value="2000">made after 1999</option>
+            <option value="1900">made before 2000</option>
             <option value="pg">pg</option>
             <option value="pg-13">pg-13</option>
             <option value="all">all</option>
         </select>
-    </div>
+    </header>
     <br>
-    <button id="submit">apply filters</button>
     <div id="products">
-    <figure data-animstion="f" data-agemade="2024" data-ratted="pg">
-        <img src="" alt="">
-            <figcaption>Girl Haunts Boy</figcaption>
+    <figure data-animstion="f" data-agemade="2024" data-rated="pg">
+        <figcaption>Girl Haunts Boy 2024</figcaption>
+        <img src="assets/girlhauntsboy.webp" alt="" width = "200px">
+            <p>The intriguing story of a boy moving to a new town in a new city with his mom after a death in the family. He is met by an old creaky house inside he finds a ring. When he puts it on he can see a ghost, she tells him about her life and they figure out what to do next.</p>
+    </figure>
+    <figure data-animstion="f" data-agemade="2015" data-rated="pg-13">
+        <figcaption>The Man From U.N.C.L.E. 2015</figcaption>
+        <img src="assets/The Man From U.N.C.L.E.webp" alt="" width = "200px">
+            <p>A story, full of action and adventure, taking you through the trenches of the cold war whereas tension builds between Russia and the US with the thret of nuclear power looming over the world powers mustn't forget to look around instead of just at their enemies. This movie is one of my all time favorites and is sure to keep you guessing at what comes next.
+            </p>
+    </figure>
+    <figure data-animstion="f" data-agemade="1984" data-rated="pg-13">
+        <figcaption>Beverly Hills Cop 1984</figcaption>
+        <img src="assets/Beverly Hills Cop.webp" alt="" width = "200px">
+            <p>After being suspended for countless mistakes the young cop by the name of Axel Foley. This movie follows this young adventurous cop across state lines to avenge the death of his childhood friend. this is a action packed Comedy with no shortage of trickery and exploits. 
+            </p>
+    </figure>
+    <figure data-animstion="t" data-agemade="1991" data-rated="pg">
+        <figcaption>Beauty And The Beast 1991</figcaption>
+        <img src="assets/Beauty And The Beast.webp" alt="" width = "200px">
+            <p>Dive into the adventure of a young bookworm as she tries to make herself seen in a small quiet town in France. This compelling romance is beautifully animated with an amazing message. 
+            </p>
+    </figure>
+    <figure data-animstion="t" data-agemade="2023" data-rated="pg">
+        <figcaption>Elemental 2023</figcaption>
+        <img src="assets/Elemental.webp" alt="" width = "200px">
             <p>this is jeulery</p>
     </figure>
-    <figure data-animstion="f" data-agemade="2015" data-ratted="pg-13">
-        <img src="" alt="">
-            <figcaption>The Man From U.N.C.L.E.</figcaption>
-            <p>this is jeulery</p>
-    </figure>
-    <figure data-animstion="f" data-agemade="1984" data-ratted="pg-13">
-        <img src="" alt="">
-            <figcaption>Beverly Hills Cop</figcaption>
-            <p>this is jeulery</p>
-    </figure>
-    <figure data-animstion="t" data-agemade="1991" data-ratted="pg">
-        <img src="" alt="">
-            <figcaption>Beauty And The Beast</figcaption>
-            <p>this is jeulery</p>
-    </figure>
-    <figure data-animstion="t" data-agemade="2023" data-ratted="pg">
-        <img src="" alt="">
-            <figcaption>Elemental</figcaption>
-            <p>this is jeulery</p>
-    </figure>
-    <figure data-animstion="t" data-agemade="1997" data-ratted="pg">
-        <img src="" alt="">
-            <figcaption>Hercules</figcaption>
+    <figure data-animstion="t" data-agemade="1997" data-rated="pg">
+        <figcaption>Hercules 1997</figcaption>
+        <img src="assets/Hercules.webp" alt="" width = "200px">
             <p>this is jeulery</p>
     </figure>
 </div>
