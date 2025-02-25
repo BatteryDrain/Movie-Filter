@@ -16,9 +16,9 @@ figure{
     border: 1px solid black;
     padding: 1rem;
 }
-#fiterOptions{
+header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 header select{
     width: 150px;
@@ -28,4 +28,10 @@ figure{
     background-color: grey;
     color: white;
     border: none;
+}
+@media screen and (max-width: 759px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
 }
