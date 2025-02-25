@@ -12,16 +12,16 @@ filter_select.addEventListener("change", () => {
             FIGURES[i].classList.toggle("hide");
         }
     }
-    if(FILTER == "pg-13"){
+    if(FILTER == "pg"){
         for(i = 0; i < FIGURES.length; i++){
-            if(FIGURES[i].dataset.ratted == "pg"){
+            if(FIGURES[i].dataset.rated == "pg-13"){
                 FIGURES[i].classList.toggle("hide");
             }
         }
     }
-    if(FILTER == "pg"){
+    if(FILTER == "pg-13"){
         for(i = 0; i < FIGURES.length; i++){
-            if(FIGURES[i].dataset.ratted == "pg-13"){
+            if(FIGURES[i].dataset.rated == "pg"){
                 FIGURES[i].classList.toggle("hide");
             }
         }
